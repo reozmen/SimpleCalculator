@@ -11,6 +11,16 @@ mouseon.addEventListener("mouseover", () =>{
   mouseon.style.color = "red";
   mouseon.style.backgroundColor = "black";
   
+  
+  }
+  
+
+);
+mouseon.addEventListener("mouseout", (event) =>{
+  mouseon.innerHTML = "Move mouse here!!!";
+  mouseon.style.color = "black";
+  mouseon.style.backgroundColor = "white";
+
   let sign = option.value;
 
   
@@ -37,16 +47,7 @@ mouseon.addEventListener("mouseover", () =>{
 
     default:
       break;
-  }
-  
-
-});
-mouseon.addEventListener("mouseout", (event) =>{
-  mouseon.innerHTML = "Move mouse here!!!";
-  mouseon.style.color = "black";
-  mouseon.style.backgroundColor = "white";
-
-});
+}});
 
 
 
